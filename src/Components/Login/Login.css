@@ -1,0 +1,140 @@
+.login-photo {
+  padding: 80px 0;
+}
+.login-photo .image-holder {
+  display: table-cell;
+  width: auto;
+  background: url(../../Assets/Lock.PNG);
+  background-size: cover;
+}
+
+.login-photo .form-container {
+  display: table;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+}
+.inputError {
+  color: red;
+  font-size: 13px;
+  text-align: left;
+}
+.login-photo form {
+  display: table-cell;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #505e6c;
+}
+
+.sign-up-text {
+  font-size: small;
+  margin-bottom: 1.5em;
+}
+
+.sign-up-link {
+  font-size: small;
+  text-decoration: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: -0.5em;
+  background: #010116;
+  border: 2px solid black;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: white;
+  text-indent: 0px;
+  height: 40px;
+}
+
+.sign-in-alt-text {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 40px 0 20px;
+}
+
+.sign-in-alt-text span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.social-icons {
+  width: 100%;
+  font-size: 20px;
+  padding-top: 20px;
+  color: #fff;
+  text-align: center;
+  float: left;
+}
+
+.social-icons button {
+  font-size: 20px;
+  color: #010116;
+  height: 50px;
+  width: 50px;
+  background: #ffffff;
+  border-radius: 60%;
+  margin: 0px 10px;
+  border: 2px solid black;
+}
+
+@media (max-width: 991px) {
+  .login-photo form {
+    padding: 40px;
+  }
+}
+
+.login-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.login-photo form .form-control {
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 0px;
+  height: 40px;
+}
+
+.login-photo form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.login-photo form .btn-primary {
+  background: green;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.login-photo form .btn-primary:hover,
+.login-photo form .btn-primary:active {
+  background: green;
+}
+
+.login-photo form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.login-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}

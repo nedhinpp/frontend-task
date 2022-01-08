@@ -1,0 +1,15 @@
+.heading {
+  margin: 20px;
+}
+.flag-holder {
+  width: 100px;
+  padding: 5px;
+  vertical-align: middle;
+  height: 60px;
+}
+
+.inner-holder {
+  border: 2px solid;
+  padding: 5px;
+  margin: 5px;
+}
